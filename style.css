@@ -1,0 +1,65 @@
+/* Corpo e fundo geral */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+/* Cabeçalho */
+.topo_do_site {
+    color: blueviolet;
+    text-shadow: 0 0 15px rgb(255, 0, 255);
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.descricao-topo {
+    color: rgb(36, 2, 34);
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Seção principal */
+.segundo_texto_do_site {
+    color: aqua;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 119, 255, 0.5);
+}
+
+/* Botões */
+.botoes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn-proximo {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px solid rgb(180, 20, 180);
+    background: rgba(50, 50, 50, 0.8);
+    color: rgb(222, 2, 230);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-proximo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgb(180, 20, 180);
+}
